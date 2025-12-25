@@ -46,7 +46,8 @@ Components you'll need
 
     Load for testing: We used a 12V DC geared motor (100 RPM)
 
-Truth Table
+## Truth Table
+
 <img width="565" height="490" alt="image" src="https://github.com/user-attachments/assets/26d9e89a-b93b-4ec4-be63-a694085dde8a" />
 
 Where can you use this?
