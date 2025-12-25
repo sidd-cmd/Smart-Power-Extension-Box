@@ -9,7 +9,7 @@ The circuit uses an ACS712 current sensor to monitor the load continuously. When
 
 A transistor controls the relay switching, and once tripped, the system won't turn back on until you press the reset button. Simple, reliable, and fast.
 
-Logic behind it:
+## Logic behind it:
 
 Relay = NAND(RESET, SET)
 
@@ -50,7 +50,7 @@ Components you'll need
 
 <img width="565" height="490" alt="image" src="https://github.com/user-attachments/assets/26d9e89a-b93b-4ec4-be63-a694085dde8a" />
 
-Where can you use this?
+## Where can you use this?
 
     DIY overload-protected power strips
 
@@ -60,6 +60,6 @@ Where can you use this?
 
     Anywhere you need automatic current limiting without complex programming
 
-Why hardware logic?
+## Why hardware logic?
 
 Unlike microcontroller-based designs, this is purely analog and digital logic. That means faster response times, lower cost, and one less thing to program. Perfect for learning digital logic design or building a quick protective circuit.
