@@ -11,7 +11,6 @@ A transistor controls the relay switching, and once tripped, the system won't tu
 
 Logic behind it:
 
-text
 Relay = NAND(RESET, SET)
 
 Where SET comes from the comparator (goes LOW on overload) and RESET is your manual pushbutton.
@@ -48,11 +47,8 @@ Components you'll need
     Load for testing: We used a 12V DC geared motor (100 RPM)
 
 Truth Table
-Condition	LM393 OUT (SET)	RESET	NAND OUT (Q)	Relay/Motor
-Normal	1	1	1	ON
-Overload	0	1	0	OFF
-Cleared (latched)	1	1	0	OFF
-Manual Reset	1	0	1	ON
+<img width="565" height="490" alt="image" src="https://github.com/user-attachments/assets/26d9e89a-b93b-4ec4-be63-a694085dde8a" />
+
 Where can you use this?
 
     DIY overload-protected power strips
